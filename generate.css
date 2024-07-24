@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;300;400;700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+  }
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ background:linear-gradient(to right,white,rgb(231, 193, 255) );
+ margin: 15px;;
+}
+header {
+ background: linear-gradient(to right,white,rgb(231, 193, 255) ); 
+padding: 40px;
+display: flex;
+align-items: center;
+}
+.logo{
+float:left;
+width:200px;
+}
+    nav {
+        float: right;
+     }
+
+nav a {
+font-size:large;
+text-decoration: none;
+color: #000;
+padding: 0 10px;
+margin-left:5px;
+}
+
+nav a:hover{
+color:rgb(187, 91, 255);
+}
+.fa-brands{
+    padding:10px;
+    font-size:45px;
+  }
+.flex{
+display:felx;
+} 
+.button {
+   
+    display:block;
+    margin:center;
+    background-color: rgb(220, 163, 255) ;
+    border-radius:12px;
+    color:white;
+    font-size: larger;
+    padding: 7px 15px;
+    text-align: center;
+    display:inline-block;
+    transition-duration:0.4s;
+    cursor:pointer;
+    align-self:center;
+  }
+  .button:hover {
+    background-color: white;
+    color:rgb(220, 163, 255);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  .gotopbtn {
+    font-size: 22px;
+    position:fixed;
+    line-height: 50px;;
+    right:50px;
+    
+    bottom:40px;
+    width:50px;
+    height:50px;
+
+    border-radius: 50%;
+    background:rgb(187, 91, 255);
+    box-shadow: 0 0 10px black;
+    color:white;
+    cursor:pointer;
+    align-self: center;
+}
+
+  
+
+.wrapper {
+  width: 400px;
+  margin: 40px auto;
+  padding: 10px;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 0px 10px 40px 0px rgba(47,47,47,.1);
+  text-align: right;
+}
+
+input[type="text"]{
+  padding: 10px;
+  margin: 10px auto;
+  display: block;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  background: none;
+  width: 274px;
+  color: black;
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
+
+.controls {
+  width: 294px;
+  margin: 15px auto;
+}
+
+#remove_fields {
+  float: right;
+}
+.controls a i.fa-minus {
+  margin-right: 5px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+  font-size: 48px;
+  color: #232c3d;
+}
